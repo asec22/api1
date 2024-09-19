@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test API</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+</head>
+<body>
+<div>
+<form action="{{url_for("newpatient")}}" method="post">    
+<table width="200" border="0">
+  <tbody>
+	  <h3>New Patient</h3>
+	  <p>&nbsp;</p>
+    <tr>
+       <td><label for="patientname">Patient Name:</label></td>
+       <td><input type="text" id="PatientName" name="pat_name" placeholder="Enter the patients name."></td>
+    </tr>
+    <tr>
+       <td><label for="patientage">Patient Age:</label></td>
+       <td><input type="text" id="PatientAge" name="pat_age" placeholder="Enter the patients age."></td>
+    </tr>
+    <tr>
+       <td><label for="patientgender">Patient Gender(M/F/O):</label></td>
+       <td><input type="text" id="PatientGender" name="pat_gender" placeholder="Enter the patients gender."></td>
+    </tr>
+    <tr>
+       <td><label for="patientnotes">Patient Notes:</label></td>
+       <td><input type="text" id="PatientNotes" name="pat_notes" placeholder="Enter any notes on the patient."></td>
+    </tr>
+    <tr>
+       <td><button class=green type="submit">Submit</button></td>
+    </tr>    
+  </tbody>
+</table>
+</form>    
+</div>    
+</body>
+</html>

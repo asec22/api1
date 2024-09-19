@@ -1,0 +1,14 @@
+PatientID,Name,Age,Gender,Notes
+Patient1,Rolando,27,M,nan
+Patient2,Emily,69,F,nan
+Patient3,Pablo,3,M,nan
+Patient4,Marjorie,73,F,nan
+Patient5,Tom,46,M,nan
+Patient6,Isabel,68,F,nan
+Patient7,Rolando Sr,36,M,nan
+Patient8,Moni,36,F,Twin
+Patient9,Jose,68,M,Hello!
+Patient10,Mark,34,M,Hello!
+Patient11,Mark,34,M,Hello!
+Patient12,Zoe,12,F,Friend
+Patient13,Zachary,28,M,Friend
